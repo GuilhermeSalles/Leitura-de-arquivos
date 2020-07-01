@@ -28,6 +28,7 @@ public class Program03 {
 		boolean success = new File(strPath + "\\subbir").mkdir();
 		System.out.println("Directory created successfully: " + success);
 		
+		sc.close();
 
 	}
 
